@@ -1,0 +1,29 @@
+.main-wrapper .container {
+    max-width: 1063px;
+    font-size: medium;
+}
+.resume-contact{
+    font-size: small;
+    padding-right:1px;
+}
+.resume-profile-image{
+    height: 119px;
+    max-width: 146px;
+}
+.rounded {
+    border-radius: .25rem !important;
+}
+h2,h3{
+    font-size: 1.30rem;
+    color: #5469C9;
+}
+h4{
+    font-size: medium;
+}
+.theme-link{
+    color:blue
+}
+.text-muted{
+    font-size: small;
+    color: blue;
+}
