@@ -10,7 +10,7 @@ export class ContactService {
   constructor(private http : HttpClient) { }
 
   contactData(data):Observable<any>{
-    return this.http.post(`http://localhost:3000/contact`,data)
+    return this.http.post(`https://ramyaportfolio.herokuapp.com/contact`,data)
 
   }
 }
